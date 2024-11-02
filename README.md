@@ -23,3 +23,13 @@ Welcome to the Coffee Machine project! This project simulates a coffee vending m
    ```bash
    python main.py
    ```
+3. Follow the prompts to select a coffee, pay, or check reports.
+
+## Example Usage
+- Select a coffee: "What would you like? (espresso/latte/cappuccino)".
+- Insert coins: "Please insert coins. How many quarters?".
+- Receive your coffee and enjoy!
+
+## Individual Component Documentation
+- Each component has its own README file with detailed information about its purpose, attributes, and methods.
+
