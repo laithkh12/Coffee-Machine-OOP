@@ -1,17 +1,25 @@
-# Coffee Machine Project
+# ☕ Coffee Machine Project
 
-This project simulates a coffee machine that takes orders, checks ingredient availability, processes payments, and makes coffee. It is structured into multiple modules for different functionalities.
+Welcome to the Coffee Machine project! This project simulates a coffee vending machine where users can select drinks, pay with coins, and receive delicious coffee! The project consists of several components, each handling a unique part of the machine’s functionality.
 
-## Project Structure
+## Features
+- Multiple coffee options: Espresso, Latte, Cappuccino.
+- Real-time ingredient tracking and reports.
+- Coin-based payment system.
+- Automated coffee-making process with interactive CLI.
 
-- `coffee_maker.py`: Manages resources and makes coffee.
-- `menu.py`: Contains the menu and items available for selection.
-- `money_machine.py`: Handles coin input and processes payments.
-- `main.py`: Ties everything together and runs the coffee machine.
+## Components
+1. [CoffeeMaker](coffee_maker.md) - Manages the coffee machine resources.
+2. [Menu](menu.md) - Holds and provides drink options.
+3. [MoneyMachine](money_machine.md) - Handles coin processing and payments.
+4. `main.py` - The main program flow that interacts with all components.
 
-## Getting Started
+---
 
-1. Clone the repository:
+## How to Run
+
+1. Ensure all files (`coffee_maker.py`, `menu.py`, `money_machine.py`, and `main.py`) are in the same directory.
+2. Run the main program:
    ```bash
-   git clone https://github.com/laithkh12/Coffee-Machine-OOP.git
+   python main.py
    ```
