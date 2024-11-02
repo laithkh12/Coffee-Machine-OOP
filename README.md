@@ -13,5 +13,5 @@ This project simulates a coffee machine that takes orders, checks ingredient ava
 
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
-```
+   git clone https://github.com/laithkh12/Coffee-Machine-OOP.git
+   ```
